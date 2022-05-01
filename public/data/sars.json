@@ -1,0 +1,3020 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "50",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "41",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Vacuna",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Las vacunas contra el COVID-19 son efectivas para evitar que las personas se enfermen gravemente, deban ser hospitalizadas o incluso mueran, especialmente las personas que cuentan con dosis de refuerzo. Como sucede con otras enfermedades, estará mejor protegido contra el COVID-19 si se mantiene al día con las vacunas recomendadas.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Vacuna"
+    },
+    "union" : [ "4", "5", "6", "7" ],
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#AstraZeneca",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "AstraZeneca"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Coronavac",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Coronavac"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Pfizer_BioNTech",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Pfizer_BioNTech"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Johnson_&_Johnson",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Johnson_&_Johnson"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Cansino",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Cansino"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Sputnik_V",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Sputnik_V"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Moderna",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Moderna"
+      }
+    } ],
+    "subClasses" : [ "4", "5", "6", "7" ],
+    "attributes" : [ "union" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Linaje",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "un linaje es un grupo de virus estrechamente relacionados con un ancestro en común. El SARS-CoV-2 tiene muchos linajes; todos causan el COVID-19.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Linaje"
+    },
+    "subClasses" : [ "9", "10", "11", "12", "13" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#SARS-Cov-2",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 1,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Virus que causa una enfermedad respiratoria llamada enfermedad por coronavirus de 2019 (COVID-19). El SARS-CoV-2 es un virus de la gran familia de los coronavirus. Los coronavirus infectan a seres humanos y algunos animales. La infección por el SARS-CoV-2 en las personas se identificó por primera vez en 2019.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SARS-Cov-2"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Eta",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Eta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Mu",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Mu"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Alfa",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Alfa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Ómicron",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Ómicron"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Iota",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Iota"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Delta",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Delta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Zeta",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Zeta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Kappa",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Kappa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Beta",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Beta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Epsilon",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Epsilon"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Gamma",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Gamma"
+      }
+    } ],
+    "subClasses" : [ "15", "16", "17" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Virales",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Una prueba viral le indica si está infectado por el SARS-CoV-2, el virus que causa el COVID-19, con muestras tomadas de la nariz o la boca. Hay dos tipos de pruebas virales: las pruebas rápidas y las pruebas de laboratorio. Las pruebas de detección del COVID-19 son una de las varias medidas de reducción de riesgos, junto con la vacunación, el uso de mascarillas y el distanciamiento físico, que lo protegen y protegen a otras personas porque reducen las probabilidades de propagación del COVID-19.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Virales"
+    },
+    "subClasses" : [ "20", "21" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#VOI",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Siglas" : [ {
+        "identifier" : "Siglas",
+        "language" : "undefined",
+        "value" : "Variante de interés",
+        "type" : "label"
+      } ],
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Variante con marcadores genéticos específicos a los que se ha asociado a cambios en la unión al receptor, una menor neutralización por los anticuerpos generados contra una infección anterior o la vacunación, una menor eficacia de los tratamientos, el posible impacto del diagnóstico, o el aumento pronosticado en la transmisibilidad o gravedad de la enfermedad.\n\nUna variante de interés podría requerir una o más medidas de salud pública adecuadas, incluida una mejor vigilancia secuencial, una mejor caracterización de laboratorio o investigaciones epidemiológicas para evaluar con qué facilidad se propaga el virus a otras personas, la gravedad de la enfermedad, la eficacia de los tratamientos y si las vacunas aprobadas o autorizadas actualmente ofrecen protección.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VOI"
+    },
+    "id" : "16",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#ARNm",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "En este tipo de vacuna se usa ARNm genéticamente modificado para brindar a tus células instrucciones sobre cómo producir la proteína de la espícula que se encuentra en la superficie del virus de la COVID-19. Después de la vacunación, las células musculares comienzan a producir las partes de la proteína de la espícula y a ubicarlas en la superficie de las células. Esto hace que el organismo produzca anticuerpos. Si más tarde te infectas con el virus de la COVID-19, estos anticuerpos combatirán el virus.\n\nInmediatamente después de entregar las instrucciones, el ARNm se divide. Nunca ingresa al núcleo de las células, donde se almacena tu ADN.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ARNm"
+    },
+    "id" : "7",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#VOC",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Siglas" : [ {
+        "identifier" : "Siglas",
+        "language" : "undefined",
+        "value" : "Variante de preocupación",
+        "type" : "label"
+      } ],
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Variante para la cual existe evidencia de una mayor transmisibilidad, casos más graves de enfermedad (por ejemplo, mayor cantidad de hospitalizaciones o muertes), reducción significativa en la neutralización por los anticuerpos generados durante una infección anterior o la vacunación, menor efectividad de los tratamientos o las vacunas, o fallas de detección de diagnóstico.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VOC"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Ómicron",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Ómicron"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Delta",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Delta"
+      }
+    } ],
+    "id" : "17",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Vulnerable",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vulnerable"
+    },
+    "id" : "32",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Grave",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Grave"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#incapacidad_de_permanecer_despierto",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "incapacidad_de_permanecer_despierto"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#dificultad_para_respirar",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "dificultad_para_respirar"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#confusion",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "confusion"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#dolor_de_pecho",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "dolor_de_pecho"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#piel_azulada",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "piel_azulada"
+      }
+    } ],
+    "id" : "1",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Poco_habitual",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Poco_habitual"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#vomito",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "vomito"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#hinchazón",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "El área de inyección presenta hinchazón",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "hinchazón"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#enrojemiento",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "El área de inyección presenta enrojecimiento",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "enrojemiento"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#odinofagia",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Dolor al tragar",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "odinofagia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#diarrea",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "diarrea"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#perdida_de_gusto",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "perdida_de_gusto"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#nausea",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "nausea"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#perdida_de_olfato",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "perdida_de_olfato"
+      }
+    } ],
+    "id" : "2",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Tercera_edad",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Personas con 60 años o más",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Tercera_edad"
+    },
+    "id" : "51",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Enfermedad",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Enfermedad"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#cardiopatia_coronaria",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La cardiopatía coronaria (CHD, por sus siglas en inglés) es el tipo más común de enfermedad cardíaca y sucede cuando se acumula placa en las arterias que conducen al corazón. También se llama arteriopatía coronaria (CAD, por sus siglas en inglés). Cuando se estrechan las arterias, el corazón no puede recibir suficiente sangre y oxígeno. Una arteria bloqueada puede causar un ataque cardíaco. Con el tiempo, la CHD puede debilitar el miocardio y provocar insuficiencia cardíaca o arritmias.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "cardiopatia_coronaria"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Amigdalitis",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Lo que conocemos comúnmente como anginas, es un dolor de garganta que en 8 de cada 10 casos tiene un origen vírico. Solo el 20% está producido por una bacteria.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Amigdalitis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#cancer_de_pulmón",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Está entre los cinco tipos de cánceres que provocan mayor número de muertes en el mundo (mata a 1,6 millones de personas cada año). El factor principal es el tabaco, pero también puede ser provocado por sustancias químicas y la contaminación ambiental.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "cancer_de_pulmón"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Rinitis",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La inflamación de la mucosa nasal puede tener un origen alérgico, viral o bacteriano. Se caracteriza por provocar picor de nariz, estornudos, congestión y secreción nasal.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Rinitis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Asma",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Hablamos ahora de una enfermedad crónica causada por la inflamación de los bronquios. Según datos de la OMS, la sufren 334 millones de personas en todo el mundo (afecta al 10% de los niños de países industrializados). Las personas asmáticas no solo tienen dificultad para respirar, sino que también sufren fatiga, insomnio, silbidos en el pecho y, en ocasiones, la imposibilidad de realizar las tareas del día a día.\n\nSu origen se encuentra en una variedad de factores que van desde el humo hasta los ácaros, el polen o el aire frío.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Asma"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Resfriado_comun",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Casi todas las personas lo sufrimos, principalmente en invierno y en época de lluvias. Se trata de una infección vírica que afecta a la nariz y a la garganta. Se caracteriza por producir estornudos, mocos, tos y congestión nasal. A veces puede provocar fiebre y dolor de cabeza.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Resfriado_comun"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#COVID-19",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "El COVID-19 (enfermedad del coronavirus 2019) es una enfermedad causada por un virus llamado SARS-CoV-2 y fue descubierta en diciembre del 2019 en Wuhan, China. Es muy contagioso y se ha propagado rápidamente en todo el mundo.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "COVID-19"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#insuficiencia_cardiaca",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La insuficiencia cardíaca ocurre cuando el miocardio se vuelve rígido o débil. No puede bombear suficiente sangre oxigenada, lo cual causa síntomas en todo el cuerpo. La enfermedad puede afectar solo el lado derecho o el lado izquierdo del corazón. Es muy frecuente que ambos lados del corazón estén comprometidos. La preeion arterial alta y la CAD son causas comunes de la insuficiencia cardíaca.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "insuficiencia_cardiaca"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Neumonía",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Puede que no tenga tanta prevalencia como las enfermedades respiratorias anteriores, pero es muy grave. De hecho, la OMS la coloca como una de las causas principales de muerte entre los niños menores de 5 años. Los síntomas de esta infección son: dolor en el tórax, respiración rápida, fiebre, escalofríos, tos y pérdida de apetito.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Neumonía"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#cardiopatia_congénita",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La cardiopatía congénita es un problema con la estructura y funcionamiento del corazón que está presente al nacer. Este término puede describir muchos problemas diferentes que afectan el corazón. Es el tipo más común de anomalía congénita.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "cardiopatia_congénita"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Faringitis",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Puede ser provocada por un resfriado o por la gripe, pero también puede tener un origen bacteriano. En este caso, produce fiebre. Esta inflamación de la faringe provoca placas de color blanco, la hinchazón de los ganglios linfáticos del cuello y dolor de garganta.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Faringitis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tuberculosis",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La tuberculosis (TB) es una enfermedad infecciosa que suele afectar a los pulmones y es causada por una bacteria (Mycobacterium tuberculosis). Se transmite de una persona a otra a través de gotitas de aerosol suspendidas en el aire expulasadas por personas con enfermedad pulmonar activa.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "tuberculosis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#EPOC",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Unos 65 millones de personas en todo el mundo sufren EPOC y 3 millones mueren cada año por su culpa, según datos de la OMS. Esto la sitúa en la tercera posición de las principales causas de mortalidad a nivel global. En España, se calcula que afecta a 3 de cada 100 adultos y al 19% de los mayores de 65 años.\n\nLa Enfermedad Pulmonar Obstructiva Crónica provoca la inflamación del pulmón y la destrucción de los alvéolos pulmonares. Las personas que la sufren tienen tos, presentan dificultad para respirar y sibilancias. Una de las principales causas es el tabaco.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "EPOC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#SIDA",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "El síndrome de inmunodeficiencia adquirida es la fase más grave de la infección por el VIH. Las personas con SIDA tienen el sistema inmunitario tan dañado que comienzan a tener una cantidad cada vez mayor de enfermedades graves, las cuales se llaman infecciones oportunistas.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "SIDA"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Diabetes",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La diabetes es una enfermedad crónica (de larga duración) que afecta la forma en que el cuerpo convierte los alimentos en energía.\n\nLa mayoría de los alimentos que come se convierten en azúcar (también llamada glucosa) que se libera en el torrente sanguíneo. El páncreas produce una hormona llamada insulina, que actúa como una llave que permite que el azúcar en la sangre entre a las células del cuerpo para que estas la usen como energía.\n\nSi una persona tiene diabetes, su cuerpo no produce una cantidad suficiente de insulina o no puede usar adecuadamente la insulina que produce. Cuando no hay suficiente insulina o las células dejan de responder a la insulina, queda demasiada azúcar en el torrente sanguíneo y, con el tiempo, esto puede causar problemas de salud graves, como enfermedad del corazón, pérdida de la visión y enfermedad de los riñones.\n\nTodavía no existe una cura para la diabetes, pero se puede reducir mucho el efecto que tiene sobre la vida si se practican hábitos de estilo de vida saludables, se toman los medicamentos según sea necesario, se obtiene información sobre el automanejo de la diabetes y no se falta a las citas con el equipo de atención médica.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Diabetes"
+      }
+    } ],
+    "subClasses" : [ "65" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Rapida",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Las pruebas rápidas en centros de atención son pruebas que las realizan o interpretan otras personas, se pueden realizar en cuestión de minutos y pueden incluir pruebas de antígenos y ciertas pruebas NAAT.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Rapida"
+    },
+    "id" : "21",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "3", "60" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Prueba",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Las pruebas de detección del COVID-19 permiten detectar el SARS-CoV-2, el virus que causa el COVID-19, o los anticuerpos que genera su organismo después de haber tenido COVID-19 o después de haberse vacunado.\n\nLa pruebas de detección del SARS-CoV-2 le dicen si está infectado al momento de la prueba. Este tipo de prueba se conoce como prueba \"viral\" porque procura detectar la infección viral. Las pruebas de antígenos o de amplificación de ácido nucleico (NAAT, por sus siglas en inglés) son pruebas virales.\n\nLas pruebas de detección de anticuerpos pueden decirle si tuvo una infección por el virus que causa el COVID-19. Su organismo genera anticuerpos después de infectarse por el SARS-CoV-2 o después de vacunarse contra el COVID-19. Estas pruebas se conocen como pruebas de \"anticuerpos\" o \"serológicas\".\n\nLas pruebas de detección son muy importantes para reducir la propagación del COVID-19. Siempre debe analizar los resultados de su prueba de detección con su proveedor de atención médica.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Prueba"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#LAMP",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La amplificación isotérmica mediada en lazo (LAMP) es una prueba molecular, basada en la amplificación de ácidos nucleicos empleando una polimerasa de ADN y un conjunto de iniciadores que reconocen secuencias distintas del genoma del virus SARS-CoV-2 en condiciones de temperatura constante generando asas o bucles. La prueba LAMP acoplada con la transcripción inversa se lleva a cabo en una sola reacción (RT-LAMP).",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "LAMP"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#cuantitativos",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Detectan la cantidad de anticuerpos generados después de la exposición al virus o de la vacunación",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "cuantitativos"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#TMA",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La Amplificación Mediada por Transcripción (TMA) es un test molecular, creado por la compañía Grifols, para detectar la presencia del virus SARS-CoV-2 en plasma, sangre y muestras respiratorias. La forma en que se coge la muestra es muy similar a la de la PCR: mediante un hisopo o bastoncillo en la nariz, y posee el mismo nivel de fiabilidad.\n\nEl proceso de detección del virus consiste en crear múltiples copias de secuencias genéticas únicas y específicas del virus, de manera que la detección de este se hace de manera rápida y más precisa. Los resultados pueden tardar menos de 3,5 horas.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "TMA"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#PCR",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "También conocida como prueba molecular, esta prueba de la COVID-19 detecta el material genético del virus mediante una técnica de laboratorio llamada reacción en cadena de la polimerasa (PCR, por sus siglas en inglés) con transcripción inversa. Se recoge una muestra de líquido con un hisopo nasal o de garganta, o es posible que tengas que escupir en un tubo para obtener una muestra de saliva.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "PCR"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#antigenos",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Esta prueba de la COVID-19 detecta ciertas proteínas en el virus. Las pruebas de antígenos pueden producir resultados en minutos, y se hacen con un hisopo nasal que se usa para obtener una muestra de líquido. Otras se pueden enviar a un laboratorio para su análisis.\n\nEl resultado positivo de una prueba de antígenos se considera preciso cuando las instrucciones se siguen detenidamente. Sin embargo, hay más posibilidades de tener un resultado falso negativo, lo que significa que es posible estar infectado por el virus, pero tener un resultado negativo. Dependiendo de la situación, el proveedor de atención médica puede recomendar una prueba de reacción en cadena de la polimerasa con transcripción inversa (RT-PCR, por sus siglas en inglés) para confirmar un resultado negativo de la prueba de antígenos.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "antigenos"
+      }
+    } ],
+    "subClasses" : [ "29", "18" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Q.1",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 1,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Alias ??de B.1.1.7.1, predominantemente linaje de Lituania, del número 39 de designación de pango",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Q.1"
+    },
+    "id" : "11",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Neutralizantes",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Anticuerpos que pueden inactivar el virus",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Neutralizantes"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#anticuerpos_neutralizantes",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "anticuerpos_neutralizantes"
+      }
+    } ],
+    "id" : "76",
+    "superClasses" : [ "30" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "30", "14" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "77"
+  }, {
+    "instances" : 0,
+    "union" : [ "3", "14" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "3", "33", "60" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "24"
+  }, {
+    "instances" : 0,
+    "union" : [ "3", "14" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "80"
+  }, {
+    "instances" : 0,
+    "union" : [ "3", "33", "60" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "41"
+  }, {
+    "instances" : 0,
+    "union" : [ "30", "14" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#De_anticuerpos",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Una prueba de anticuerpos (también conocida como prueba serológica) permite detectar los anticuerpos para el SARS-CoV-2 en su sangre. Los anticuerpos son proteínas que produce su sistema inmunitario para ayudar a combatir infecciones y protegerlo para que no se enferme en el futuro.\n\nNo se deben usar las pruebas de anticuerpos para diagnosticar una infección en curso, pero sí podrían servir para indicar que tuvo una infección previa. Con las pruebas de anticuerpos, se puede conocer cómo se defiende el sistema inmunitario del virus, además de conocer el nivel de protección de la población. Si se hace una prueba de anticuerpos después de recibir la vacuna, es posible que algunos tipos de prueba de anticuerpos (aunque no todos) den un resultado positivo. Esto depende del tipo específico de anticuerpos que detecta la prueba particular.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "De_anticuerpos"
+    },
+    "id" : "29",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#subunidades_proteicas",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Las vacunas de subunidades solo incluyen las partes de un virus que más estimulan el sistema inmunitario. Este tipo de vacuna contra la COVID-19 contiene proteínas de la espícula inofensivas. Una vez que el sistema inmunitario reconoce las proteínas de la espícula, crea anticuerpos y glóbulos blancos de defensa. Si más tarde te infectas con el virus de la COVID-19, los anticuerpos combatirán el virus",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "subunidades_proteicas"
+    },
+    "id" : "6",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.6",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "linaje boliviano/español",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "B.1.6"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.62",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.62"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.621.1",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.621.1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.617.3",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.617.3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.617.1",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.617.1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.617.2",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.617.2"
+      }
+    } ],
+    "id" : "90",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.5",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "EE. UU. (separado de B.1.3)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "B.1.5"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.52",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.52"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.53",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.53"
+      }
+    } ],
+    "id" : "91",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.4",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "linaje escocés",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "B.1.4"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.43",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.43"
+      }
+    } ],
+    "id" : "92",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.3",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "linaje de Gales",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "B.1.3"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.35",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.35"
+      }
+    } ],
+    "id" : "93",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.2",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "linaje holandés",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "B.1.2"
+    },
+    "id" : "99",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.1",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Linaje europeo con 3 SNP claros `28881GA`, `28882GA`, `28883GC`",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "B.1.1"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.1.529",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "South Africa and Botswana lineage, from pango-designation issue #343",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "B.1.1.529"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B.1.1.7",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "B.1.1.7"
+      }
+    } ],
+    "id" : "101",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Anticuerpos",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Anticuerpos"
+    },
+    "subClasses" : [ "110", "76" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#P.1",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 1,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Alias ??de B.1.1.28.1, linaje brasileño con varias mutaciones de espiga con significado funcional probable E484K, K417T y N501Y.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "P.1"
+    },
+    "id" : "62",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#P.2",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 1,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Alias of B.1.1.28.2, Brazilian lineage",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "P.2"
+    },
+    "id" : "68",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#VBM",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Siglas" : [ {
+        "identifier" : "Siglas",
+        "language" : "undefined",
+        "value" : "Variante bajo monitoreo",
+        "type" : "label"
+      } ],
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Las variantes designadas como VBM incluyen aquellas cuyos datos indican que existen un impacto claro o potencial sobre las contramedidas médicas aprobadas o autorizadas o que se han asociado a casos de enfermedad más graves o a una mayor transmisión pero que ya no se detectan, o están circulando a niveles muy bajos, en los Estados Unidos. Estas variantes no representan un riesgo significativo e inminente para la salud pública en los Estados Unidos.\n\nUna variante de interés o una variante de preocupación puede ser degradada a esta lista luego de una reducción significativa y sostenida en sus proporciones nacionales y regionales con el paso del tiempo, o si otra evidencia indica que una variante no representa un riesgo significativo para la salud pública en los Estados Unidos.\n\nEstas variantes se siguen monitoreando de cerca para identificar cambios en sus proporciones y los nuevos datos obtenidos se analizan de forma continua. Si los datos indican que una VBM justifica un mayor nivel de preocupación, se modificará la clasificación con base en la evaluación que haga el SIG de los atributos de la variante y el riesgo para la salud pública en los Estados Unidos.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VBM"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Eta",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Eta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Mu",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Mu"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Alfa",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Alfa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Iota",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Iota"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Zeta",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Zeta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Kappa",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Kappa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Beta",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Beta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Epsilon",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Epsilon"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Gamma",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Gamma"
+      }
+    } ],
+    "id" : "15",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#De_laboratorio",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Las pruebas de laboratorio pueden demorar unos días e incluyen las pruebas de RT-PCR y otros tipos de NAAT.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "De_laboratorio"
+    },
+    "id" : "20",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#De_union",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Anticuerpos desarrollados como respuesta a una infección por COVID-19 o por ser vacunado",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "De_union"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#anticuerpos_de_union",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "anticuerpos_de_union"
+      }
+    } ],
+    "id" : "110",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Enferma_cronica",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Personas con enfermedades crónicas",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Enferma_cronica"
+    },
+    "id" : "85",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#vector_viral",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "En este tipo de vacuna, el material genético del virus de la COVID-19 se coloca en una versión modificada de un virus diferente (vector viral). Cuando el vector viral ingresa a las células, entrega el material genético del virus de la COVID-19 que brinda instrucciones a las células para hacer copias de la proteína de la espícula. Una vez que las células muestran las proteínas de la espícula en la superficie, el sistema inmunitario responde y crea anticuerpos y glóbulos blancos de defensa. Si más adelante te infectas con el virus de la COVID-19, los anticuerpos combatirán el virus.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "vector_viral"
+    },
+    "id" : "5",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "3", "33", "14", "60" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#virus_inactivado",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "utilizan un virus previamente inactivado o atenuado, de modo que no provoca la enfermedad, pero aún así genera una respuesta inmunitaria.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "virus_inactivado"
+    },
+    "id" : "4",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Sintoma",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sintoma"
+    },
+    "union" : [ "1", "2", "27" ],
+    "subClasses" : [ "1", "2", "27" ],
+    "attributes" : [ "union" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#C.1",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Alias ??de B.1.1.1.1, Sudáfrica",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "C.1"
+    },
+    "id" : "9",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#B",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Uno de los dos haplotipos originales de la pandemia (y el primero en ser descubierto)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "B"
+    },
+    "subClasses" : [ "90", "91", "92", "93", "99", "101", "124" ],
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Persona",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Persona"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Sofía_del_Río_Arango",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Sofía_del_Río_Arango"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Manuela_del_Pino_Hincapié",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Manuela_del_Pino_Hincapié"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Sara_Teresa_Sánchez_del_Pinar",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Sara_Teresa_Sánchez_del_Pinar"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Sebastián_del_Campo_Yepes",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Sebastián_del_Campo_Yepes"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Valentina_Laverde_de_la_Rosa",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Valentina_Laverde_de_la_Rosa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Pedro_Samano_Hernandez",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Pedro_Samano_Hernandez"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Mónica_Patricia_de_Ávalos_Mendoza",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Mónica_Patricia_de_Ávalos_Mendoza"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Matías_de_Greiff_Rincón",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Matías_de_Greiff_Rincón"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Uziel_Bruno_Reyes_Garnelo",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Uziel_Bruno_Reyes_Garnelo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Luis_Eduardo_Castillo_Guzman",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Luis_Eduardo_Castillo_Guzman"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Jorge_Alan_Gongora_Hernandez",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Jorge_Alan_Gongora_Hernandez"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Efraín_de_las_Casas_Mejía",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Efraín_de_las_Casas_Mejía"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Martín_Elías_de_los_Ríos_Acosta.",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Martín_Elías_de_los_Ríos_Acosta."
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Job_David_Paniagua_Ramos",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Job_David_Paniagua_Ramos"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Juan_Fernando_Pérez_del_Corral",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Juan_Fernando_Pérez_del_Corral"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Ana_Laura_Silva_Crespo",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Ana_Laura_Silva_Crespo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Julieta_Ponce_de_León",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Julieta_Ponce_de_León"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Ana_María_de_la_Peña_Posada",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "Ana_María_de_la_Peña_Posada"
+      }
+    } ],
+    "subClasses" : [ "32", "85", "51" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Habitual",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Habitual"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#estornudo_frecuente",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "estornudo_frecuente"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#dolor_de_garganta",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "dolor_de_garganta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#falta_de_apetito",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "falta_de_apetito"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#cansansio",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "cansansio"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#dolor_de_cabeza",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "dolor_de_cabeza"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#rinorrea",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Una nariz congestionada o tapada se produce cuando los tejidos que la recubren se hinchan. La hinchazón se debe a la inflamación de los vasos sanguíneos. El problema también puede incluir \"rinorrea\" o secreción nasal.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "rinorrea"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#dolor_de_brazo",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "dolor_de_brazo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#hipertermia",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "hipertermia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#astenia",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "astenia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#escalofrios",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "escalofrios"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#dolor_muscular",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "dolor_muscular"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tos",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "tos"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#congestion_nasal",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "congestion_nasal"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#mareo",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "mareo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#fatiga",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "fatiga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#fiebre",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "fiebre"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tension_muscular",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "tension_muscular"
+      }
+    } ],
+    "id" : "27",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Cronica",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Una enfermedad crónica es un problema de salud a largo plazo que puede no tener cura.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Cronica"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Neumonía",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Puede que no tenga tanta prevalencia como las enfermedades respiratorias anteriores, pero es muy grave. De hecho, la OMS la coloca como una de las causas principales de muerte entre los niños menores de 5 años. Los síntomas de esta infección son: dolor en el tórax, respiración rápida, fiebre, escalofríos, tos y pérdida de apetito.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Neumonía"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#cardiopatia_congénita",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La cardiopatía congénita es un problema con la estructura y funcionamiento del corazón que está presente al nacer. Este término puede describir muchos problemas diferentes que afectan el corazón. Es el tipo más común de anomalía congénita.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "cardiopatia_congénita"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#cardiopatia_coronaria",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La cardiopatía coronaria (CHD, por sus siglas en inglés) es el tipo más común de enfermedad cardíaca y sucede cuando se acumula placa en las arterias que conducen al corazón. También se llama arteriopatía coronaria (CAD, por sus siglas en inglés). Cuando se estrechan las arterias, el corazón no puede recibir suficiente sangre y oxígeno. Una arteria bloqueada puede causar un ataque cardíaco. Con el tiempo, la CHD puede debilitar el miocardio y provocar insuficiencia cardíaca o arritmias.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "cardiopatia_coronaria"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#cancer_de_pulmón",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Está entre los cinco tipos de cánceres que provocan mayor número de muertes en el mundo (mata a 1,6 millones de personas cada año). El factor principal es el tabaco, pero también puede ser provocado por sustancias químicas y la contaminación ambiental.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "cancer_de_pulmón"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#asma",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "labels" : {
+        "IRI-based" : "asma"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Asma",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Hablamos ahora de una enfermedad crónica causada por la inflamación de los bronquios. Según datos de la OMS, la sufren 334 millones de personas en todo el mundo (afecta al 10% de los niños de países industrializados). Las personas asmáticas no solo tienen dificultad para respirar, sino que también sufren fatiga, insomnio, silbidos en el pecho y, en ocasiones, la imposibilidad de realizar las tareas del día a día.\n\nSu origen se encuentra en una variedad de factores que van desde el humo hasta los ácaros, el polen o el aire frío.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Asma"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#EPOC",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "Unos 65 millones de personas en todo el mundo sufren EPOC y 3 millones mueren cada año por su culpa, según datos de la OMS. Esto la sitúa en la tercera posición de las principales causas de mortalidad a nivel global. En España, se calcula que afecta a 3 de cada 100 adultos y al 19% de los mayores de 65 años.\n\nLa Enfermedad Pulmonar Obstructiva Crónica provoca la inflamación del pulmón y la destrucción de los alvéolos pulmonares. Las personas que la sufren tienen tos, presentan dificultad para respirar y sibilancias. Una de las principales causas es el tabaco.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "EPOC"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#SIDA",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "El síndrome de inmunodeficiencia adquirida es la fase más grave de la infección por el VIH. Las personas con SIDA tienen el sistema inmunitario tan dañado que comienzan a tener una cantidad cada vez mayor de enfermedades graves, las cuales se llaman infecciones oportunistas.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "SIDA"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#Diabetes",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La diabetes es una enfermedad crónica (de larga duración) que afecta la forma en que el cuerpo convierte los alimentos en energía.\n\nLa mayoría de los alimentos que come se convierten en azúcar (también llamada glucosa) que se libera en el torrente sanguíneo. El páncreas produce una hormona llamada insulina, que actúa como una llave que permite que el azúcar en la sangre entre a las células del cuerpo para que estas la usen como energía.\n\nSi una persona tiene diabetes, su cuerpo no produce una cantidad suficiente de insulina o no puede usar adecuadamente la insulina que produce. Cuando no hay suficiente insulina o las células dejan de responder a la insulina, queda demasiada azúcar en el torrente sanguíneo y, con el tiempo, esto puede causar problemas de salud graves, como enfermedad del corazón, pérdida de la visión y enfermedad de los riñones.\n\nTodavía no existe una cura para la diabetes, pero se puede reducir mucho el efecto que tiene sobre la vida si se practican hábitos de estilo de vida saludables, se toman los medicamentos según sea necesario, se obtiene información sobre el automanejo de la diabetes y no se falta a las citas con el equipo de atención médica.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Diabetes"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#insuficiencia_cardiaca",
+      "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+      "annotations" : {
+        "Descripción" : [ {
+          "identifier" : "Descripción",
+          "language" : "undefined",
+          "value" : "La insuficiencia cardíaca ocurre cuando el miocardio se vuelve rígido o débil. No puede bombear suficiente sangre oxigenada, lo cual causa síntomas en todo el cuerpo. La enfermedad puede afectar solo el lado derecho o el lado izquierdo del corazón. Es muy frecuente que ambos lados del corazón estén comprometidos. La preeion arterial alta y la CAD son causas comunes de la insuficiencia cardíaca.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "insuficiencia_cardiaca"
+      }
+    } ],
+    "id" : "65",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#P",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P"
+    },
+    "subClasses" : [ "62", "68" ],
+    "id" : "13",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#AY",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 1,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Alias ??de B.1.1.28.1.1, linaje europeo en Italia y Alemania",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AY"
+    },
+    "id" : "70",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#A",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 0,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Uno de los dos haplotipos originales de la pandemia (A y B). Muchas secuencias originarias de China y muchas exportaciones globales; incluido el Sudeste Asiático Japón Corea del Sur Australia EE. UU. y Europa representados en este linaje",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "A"
+    },
+    "subClasses" : [ "70" ],
+    "id" : "12",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#BA",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "instances" : 1,
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Alias ??de B.1.1.529.1, del número 361 de la designación de pango",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BA"
+    },
+    "id" : "124",
+    "superClasses" : [ "10" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "34",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "43",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "55",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "66",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "86",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "97",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "98",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "100",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "102",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "103",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "104",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "120",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "123",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "138",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "139",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "143",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "144",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "145",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "149",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "150",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#es_sintoma_de",
+    "inverse" : "25",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "es_sintoma_de"
+    },
+    "domain" : "23",
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "27",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#detecta",
+    "inverse" : "31",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "detecta"
+    },
+    "domain" : "29",
+    "attributes" : [ "someValues", "irreflexive", "asymmetric", "object", "functional" ],
+    "id" : "28"
+  }, {
+    "range" : "23",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#IMC",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "36",
+    "annotations" : {
+      "Descripción" : [ {
+        "identifier" : "Descripción",
+        "language" : "undefined",
+        "value" : "Índice de Masa Corporal",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IMC"
+    },
+    "domain" : "33",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#genero",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "genero"
+    },
+    "domain" : "33",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "37"
+  }, {
+    "range" : "3",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "23",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tiene_sintoma",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "tiene_sintoma"
+    },
+    "domain" : "41",
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "14",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "33",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#n_dosis",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "n_dosis"
+    },
+    "domain" : "3",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "44"
+  }, {
+    "range" : "23",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "23",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "14",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#genera",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "genera"
+    },
+    "domain" : "50",
+    "attributes" : [ "irreflexive", "asymmetric", "object", "functional" ],
+    "id" : "49"
+  }, {
+    "range" : "33",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "3",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "14",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "8",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "33",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "23",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "14",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "60",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "13",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "33",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "60",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "23",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "13",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "12",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#causa_enfermedad",
+    "inverse" : "72",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "causa_enfermedad"
+    },
+    "domain" : "14",
+    "attributes" : [ "irreflexive", "asymmetric", "object", "functional" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tiempo_resultado",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "tiempo_resultado"
+    },
+    "domain" : "18",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#detecta",
+    "inverse" : "31",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "detecta"
+    },
+    "domain" : "18",
+    "attributes" : [ "someValues", "irreflexive", "asymmetric", "object", "functional" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tiene_vacuna",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "tiene_vacuna"
+    },
+    "domain" : "14",
+    "attributes" : [ "asymmetric", "irreflexive", "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tiene_enfermedad",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "tiene_enfermedad"
+    },
+    "domain" : "85",
+    "attributes" : [ "someValues", "asymmetric", "irreflexive", "object" ],
+    "id" : "84"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#nombre",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "nombre"
+    },
+    "domain" : "88",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "87"
+  }, {
+    "range" : "6",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "7",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "7",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "17",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "27",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "17",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "8",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "8",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "8",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "8",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#es_causado_por_virus",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "es_causado_por_virus"
+    },
+    "domain" : "60",
+    "attributes" : [ "asymmetric", "irreflexive", "object", "functional" ],
+    "id" : "72"
+  }, {
+    "range" : "3",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "3",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#es_generado_por",
+    "inverse" : "49",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "es_generado_por"
+    },
+    "domain" : "30",
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "113"
+  }, {
+    "domain" : "62",
+    "range" : "62",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "65",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#es_vacuna_de",
+    "inverse" : "82",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "es_vacuna_de"
+    },
+    "domain" : "3",
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "115"
+  }, {
+    "domain" : "11",
+    "range" : "11",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "64",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "3",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "domain" : "14",
+    "range" : "14",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "61",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "70",
+    "range" : "70",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "60",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#detecta",
+    "inverse" : "31",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "detecta"
+    },
+    "domain" : "19",
+    "attributes" : [ "irreflexive", "asymmetric", "object", "functional" ],
+    "id" : "121"
+  }, {
+    "domain" : "68",
+    "range" : "68",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "63",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "124",
+    "range" : "124",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "62",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#es_linaje_de",
+    "inverse" : "126",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "es_linaje_de"
+    },
+    "domain" : "8",
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tipo",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "tipo"
+    },
+    "domain" : "74",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "127"
+  }, {
+    "range" : "10",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "10",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "33",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "33",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "10",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "10",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "range" : "10",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "33",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "19",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#pais_comun",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "pais_comun"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "139"
+  }, {
+    "range" : "14",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#porcentaje_eficacia",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "porcentaje_eficacia"
+    },
+    "domain" : "3",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "141"
+  }, {
+    "range" : "23",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "3",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "60",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "60",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#es_enfermedad_de",
+    "inverse" : "147",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "es_enfermedad_de"
+    },
+    "domain" : "60",
+    "attributes" : [ "asymmetric", "irreflexive", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "60",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "60",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "8",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tiene_enfermedad",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "tiene_enfermedad"
+    },
+    "domain" : "33",
+    "attributes" : [ "asymmetric", "irreflexive", "object" ],
+    "id" : "147"
+  }, {
+    "range" : "23",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#es_detectado_por",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "es_detectado_por"
+    },
+    "domain" : "77",
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "23",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "10",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#tiene_linaje",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "tiene_linaje"
+    },
+    "domain" : "14",
+    "attributes" : [ "asymmetric", "irreflexive", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "10",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "30",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "23",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "30",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "19",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "60",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5#edad",
+    "baseIri" : "http://www.semanticweb.org/kaztt/ontologies/2022/3/untitled-ontology-5",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "edad"
+    },
+    "domain" : "33",
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "161"
+  }, {
+    "range" : "18",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "14",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "18",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "14",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  } ]
+}
