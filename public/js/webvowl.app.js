@@ -5898,11 +5898,11 @@ webvowl.app =
 	  
 	  sidebar.clearOntologyInformation = function (){
 	    
-	    d3.select("#title").text("No title available");
+	    d3.select("#title").text("Ontología SARS-CoV-2");
 	    d3.select("#about").attr("href", "#").attr("target", "_blank").text("not given");
-	    d3.select("#version").text("--");
-	    d3.select("#authors").text("--");
-	    d3.select("#description").text("No description available.");
+	    d3.select("#version").text("1.0");	
+	    d3.select("#authors").text("Castillo Guzmán Luis Eduardo Gongora Hernández Jorge Alan Paniagua Ramos Job David Reyes Garnelo Uziel Bruno");
+	    d3.select("#description").text(".");
 	    var container = d3.select("#ontology-metadata");
 	    container.selectAll("*").remove();
 	    d3.select("#classCount")
@@ -6002,9 +6002,13 @@ webvowl.app =
 	  }
 	  
 	  function updateGraphInformation(){
+		ontologyInfo.iri = 'https://github.com/Bruno-Reyes/ontologia_fia'
+		ontologyInfo.version = '1.0.0'
+		ontologyInfo.author = ['Luis Guzmán','Alan Gongora', 'Job Paniagua', 'Bruno Reyes']
+		console.log(ontologyInfo)
 	    var title = languageTools.textInLanguage(ontologyInfo.title, graph.language());
-	    d3.select("#title").text(title || "No title available");
-	    d3.select("#about").attr("href", ontologyInfo.iri).attr("target", "_blank").text(ontologyInfo.iri);
+	    d3.select("#title").text('Ontologia SARS-CoV-2' || "No title available");
+	    d3.select("#about").attr("href", 'https://github.com/Bruno-Reyes/ontologia_fia').attr("target", "_blank").text('https://github.com/Bruno-Reyes/ontologia_fia');
 	    d3.select("#version").text(ontologyInfo.version || "--");
 	    var authors = ontologyInfo.author;
 	    if ( typeof authors === "string" ) {
@@ -6017,7 +6021,7 @@ webvowl.app =
 	    }
 	    
 	    var description = languageTools.textInLanguage(ontologyInfo.description, graph.language());
-	    d3.select("#description").text(description || "No description available.");
+	    d3.select("#description").text(description || "Una ontología creada con el objetivo de dar información clara y precisa acerca del SARS-CoV-2, ayudando a combatir la desinformación causada por los medios de comunicacón poco fiables.");
 	  }
 	  
 	  function displayGraphStatistics( deliveredMetrics, statistics ){
